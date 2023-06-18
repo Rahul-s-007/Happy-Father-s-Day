@@ -26,7 +26,7 @@ def main():
     html_code = '''
     <div style="text-align: center; padding: 20px;">
         <h1 style="color: #F6F6F6; font-family: 'Arial', sans-serif;">Happy Father's Day!</h1>
-        <p style="color: #F6F6F6; font-size: 30px; font-family: 'Arial', sans-serif;">Wishing you an amazing Fathers Day Pops's </p>
+        <p style="color: #F6F6F6; font-size: 30px; font-family: 'Arial', sans-serif;">Wishing you an amazing Fathers Day Pops </p>
         <p style="color: #F6F6F6; font-size: 20px; font-family: 'Arial', sans-serif;">from your immature sons &#128514 - Rahul and Rithik</p>
     </div>
     '''
