@@ -47,7 +47,7 @@ def main():
     col1,col2,col3 = st.columns(3)
     for i in parts:
         part_path = "images/" + i
-        images += [part_path + "/" + f for f in os.listdir(part_path)]
+        images += [part_path + "/" + f for f in os.listdir(part_path)].sort()
 
     for i, image_path in enumerate(images):
         image = Image.open(image_path)
