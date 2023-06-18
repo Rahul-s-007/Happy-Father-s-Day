@@ -43,6 +43,7 @@ def main():
     #             st.image(image, use_column_width=True)
 
     parts = os.listdir("images/")
+    parts.sort()
     images = []
     col1,col2,col3 = st.columns(3)
     for i in parts:
