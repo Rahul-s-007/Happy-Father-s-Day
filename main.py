@@ -9,9 +9,9 @@ import os
 # name = os.getenv("NAME")
 # password = os.getenv("PASSWORD")
 
-un = st.secrets("USERNAME")
-name = st.secrets("NAME")
-password = st.secrets("PASSWORD")
+un = st.secrets["USERNAME"]
+name = st.secrets["NAME"]
+password = st.secrets["PASSWORD"]
 
 credentials = {"usernames":{
                     un:{
